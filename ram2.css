@@ -1,0 +1,67 @@
+body{
+	background-color: bisque;
+}
+.row{
+	display: flex;
+
+}
+.pro1{
+	flex-basis: 50%;
+	padding-left: 60px;
+	padding-top: 60px;
+	
+    
+    
+}
+.pro2{
+	flex-basis: 50%;
+	padding-right: 60px;
+
+	
+	
+}
+.pro1 img{
+	width: 500px;
+}
+.pro1 h1,h2{
+	font-size: 20px;
+}
+.pro2 img{
+	width: 600px;
+	padding-top: 80px;
+	height: 300px;
+	
+
+}
+.cln{
+	display: flex;
+	
+}
+.pro3{
+	flex-basis: 50%;
+	padding-left: 60px;
+
+	
+	
+	
+}
+.pro4{
+	flex-basis: 50%;
+	padding-right:60 ;
+	
+	
+}
+.pro3 img{
+	width: 400px;
+}
+.pro4 img{
+	width: 500px;
+	padding-top: 40px;
+}
+.title h1{
+	color: blue;
+	font-size: 50px;
+	text-align: center;
+	padding-right: 30px;
+
+}

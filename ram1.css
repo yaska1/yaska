@@ -1,0 +1,60 @@
+body{
+	background-color: skyblue;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	display: flex;
+	margin: 20px;
+	background-color: beige;
+}
+.logo{
+	flex-basis: 50%;
+	padding: 20px;
+}
+.menu{
+	flex-basis: 50%;
+	padding: 40px;
+}
+.logo img{
+	width: 100px;
+}
+.menu a{
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 22px;
+}
+.menu a:hover{
+	color: gold;
+	background-color: bisque;
+
+}
+.slide{
+	display: flex;
+	padding: 20px;
+}
+.left-slide{
+	flex-basis: 50%;
+}
+.right-slide{
+	flex-basis: 50%;
+}
+.right-slide img{
+	width: 80%;
+	margin: 20px;
+	padding: 22px;
+}
+.left-slide h1{
+	font-size: 50px;
+	color: blue;
+}
+.left-slide p{
+	font-size: 60px;
+}
+.left-slide h1{
+	background-color: lightyellow;
+}
+.left-slide img{
+	width:300px;
+	height: 100px;
+}
